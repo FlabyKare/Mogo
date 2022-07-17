@@ -35,6 +35,12 @@
 
 @media(min-width:320px) and (max-width:575.98px){
     .intro{
+
+        padding-left: 5%;
+        padding-right: 5%;
+        .header{
+            padding: 30px 5% 0;
+        }
         .container{
             max-width: 400px;
             padding: 0;
@@ -45,10 +51,16 @@
                 font-size: 43px;
             }
         }
+        .slider{
+            padding: 0 4%;
+        }
         .slider_items{
             font-size: 10px;
             letter-spacing: 0.3px;
             line-height: 15px;
+            display: flex;
+    flex-direction: column;
+    gap: 20%;
             b{
                 font-size: 17px;
             }
@@ -537,6 +549,7 @@
         .team_text{
             width: auto !important;
             padding: 0 2%;
+            height: auto;
         }
         .team_about{
             width: 100%;
@@ -730,12 +743,18 @@
         .profile{
         width: 100%;
         padding: 0 5%;
+
         .wedo{
+
             .wedo_item{
                 width: 100%;
             }
         }
         .jon_doe{
+            width: 100%;
+            .jon_after{
+                font-size: 16px;
+            }
             .message{
                display: none !important;
             }
@@ -873,7 +892,22 @@
 // Gallery
 
 @media(min-width:320px) and (max-width:575.98px){
+    .design{
+        .section_title {
+            font-size: 26px !important;
+            padding: 0 5% !important;
+
+        }
+    }
     .gallery{
+        .section_title {
+            font-size: 26px !important;
+            padding: 0 5% !important;
+
+        }
+           .jon_after {
+            font-size: 16px;
+        }
             .works{
         justify-content: center;
         flex-wrap: wrap;
@@ -903,6 +937,7 @@
     .team_text{
         width: auto !important;
         padding: 0 12%;
+        height: auto;
     }
     .joshua{
         width: 80%;
@@ -1026,6 +1061,14 @@
 // footer
 
 @media(min-width:320px) and (max-width:575.98px){
+    .footer{
+        .mess_img{
+            margin-top: 1%;
+        }
+        .line_title{
+           padding-right: 1%;
+        }
+    }
         .footer_columns{
         justify-content: start !important;
     -ms-flex-wrap: wrap !important;
@@ -1227,7 +1270,29 @@
 
 // Intro
 
-@media(min-width:320px) and (max-width:575.98px){}
+@media(min-width:320px) and (max-width:575.98px){
+    .date_img{
+        img{
+            width: 100%;
+        }
+    }
+    .date1,.date2,.date3{
+        width: 100%;
+        margin-left: 0 !important;
+    }
+
+
+.date_number,.date_number2,.date_number3{
+    right: 81.5% !important;
+    top: 23% !important;
+}
+
+.line1_img{
+    img{
+        width: 100%;
+    }
+}
+}
 
 
 @media(min-width:576px) and (max-width:767.98px){}

@@ -22,6 +22,13 @@
 }
 
 @media (min-width: 320px) and (max-width: 575.98px) {
+  .intro {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .intro .header {
+    padding: 30px 5% 0;
+  }
   .intro .container {
     max-width: 400px;
     padding: 0;
@@ -32,10 +39,21 @@
   .intro .container .intro_title {
     font-size: 43px;
   }
+  .intro .slider {
+    padding: 0 4%;
+  }
   .intro .slider_items {
     font-size: 10px;
     letter-spacing: 0.3px;
     line-height: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20%;
   }
   .intro .slider_items b {
     font-size: 17px;
@@ -320,6 +338,7 @@
   .team .team_text {
     width: auto !important;
     padding: 0 2%;
+    height: auto;
   }
   .team .team_about {
     width: 100%;
@@ -499,6 +518,12 @@
   .profile .wedo .wedo_item {
     width: 100%;
   }
+  .profile .jon_doe {
+    width: 100%;
+  }
+  .profile .jon_doe .jon_after {
+    font-size: 16px;
+  }
   .profile .jon_doe .message {
     display: none !important;
   }
@@ -599,6 +624,17 @@
   }
 }
 @media (min-width: 320px) and (max-width: 575.98px) {
+  .design .section_title {
+    font-size: 26px !important;
+    padding: 0 5% !important;
+  }
+  .gallery .section_title {
+    font-size: 26px !important;
+    padding: 0 5% !important;
+  }
+  .gallery .jon_after {
+    font-size: 16px;
+  }
   .gallery .works {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -631,6 +667,7 @@
   .gallery .team_text {
     width: auto !important;
     padding: 0 12%;
+    height: auto;
   }
   .gallery .joshua {
     width: 80%;
@@ -718,6 +755,12 @@
   }
 }
 @media (min-width: 320px) and (max-width: 575.98px) {
+  .footer .mess_img {
+    margin-top: 1%;
+  }
+  .footer .line_title {
+    padding-right: 1%;
+  }
   .footer_columns {
     -webkit-box-pack: start !important;
         -ms-flex-pack: start !important;
@@ -859,6 +902,22 @@
 @media (min-width: 1400px) {
   .All_peoples {
     padding: 0 10% 0 20% !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .date_img img {
+    width: 100%;
+  }
+  .date1, .date2, .date3 {
+    width: 100%;
+    margin-left: 0 !important;
+  }
+  .date_number, .date_number2, .date_number3 {
+    right: 81.5% !important;
+    top: 23% !important;
+  }
+  .line1_img img {
+    width: 100%;
   }
 }
 body {
@@ -1992,7 +2051,6 @@ ul, ol {
 .date_text::after {
   content: "";
   display: block;
-  width: 380px;
   height: 1px;
   background-color: #e5e5e5;
   margin-top: 20px;
