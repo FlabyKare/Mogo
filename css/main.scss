@@ -6,6 +6,19 @@ body {
 	color: #fff;
     max-width: 100%;
 	font-size: 15px;
+    &::-webkit-scrollbar {
+        z-index: 999999999999999999999999999999999999 !important;
+        background: #000;
+      }
+      &::-webkit-scrollbar-track {
+        z-index: 999999999999999999999999999999999999 !important;
+
+      }
+      &::-webkit-scrollbar-thumb {
+        z-index: 999999999999999999999999999999999999 !important;
+        background: #f1f1f1;
+        border-radius:20px;
+      }
 }
 
 *,
@@ -25,7 +38,18 @@ ul, ol {
 
 /*Header*/
 
+.element-animation {
 
+    /* Скроем элемент в начальном состоянии */
+    opacity: 0;
+  }
+
+
+.element-show {
+    opacity: 1;
+    transition: opacity 1s !important;
+
+  }
 .header {
 	position: absolute;
 	padding-top: 30px;
