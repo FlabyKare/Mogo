@@ -1057,7 +1057,7 @@ ol {
 }
 
 #preloader {
-  background: #003442;
+  background: #000;
   position: fixed;
   top: 0;
   left: 0;
@@ -1076,7 +1076,7 @@ ol {
   margin: -75px 0 0 -75px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #00ffd0;
+  border-top-color: #f0f0f0;
   -webkit-animation: spin 2s linear infinite;
   animation: spin 2s linear infinite;
 }
@@ -1090,7 +1090,7 @@ ol {
   bottom: 5px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #00ffd0;
+  border-top-color: #f0f0f0;
   -webkit-animation: spin 3s linear infinite;
   animation: spin 3s linear infinite;
 }
@@ -1104,7 +1104,7 @@ ol {
   bottom: 15px;
   border-radius: 50%;
   border: 3px solid transparent;
-  border-top-color: #00ffd0;
+  border-top-color: #f0f0f0;
   -webkit-animation: spin 1.5s linear infinite;
   animation: spin 1.5s linear infinite;
 }
