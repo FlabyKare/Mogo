@@ -592,7 +592,7 @@
     width: 100%;
   }
   .profile .jon_doe .jon_after {
-    font-size: 16px;
+    font-size: 15px;
   }
   .profile .jon_doe .message {
     display: none !important;
@@ -978,26 +978,19 @@
   .date_img img {
     width: 100%;
   }
-  .date1, .date2, .date3 {
+  .date1,
+.date2,
+.date3 {
     width: 100%;
     margin-left: 0 !important;
   }
-  .date_number, .date_number2, .date_number3 {
-    right: 81.5% !important;
+  .date_number,
+.date_number2,
+.date_number3 {
     top: 23% !important;
   }
   .line1_img img {
     width: 100%;
-  }
-}
-@media (min-width: 320px) and (max-width: 575.98px) {
-  .element-animation {
-    opacity: 1 !important;
-  }
-}
-@media (min-width: 576px) and (max-width: 767.98px) {
-  .element-animation {
-    opacity: 1 !important;
   }
 }
 body {
@@ -1129,7 +1122,7 @@ ol {
     transform: rotate(360deg);
   }
 }
-@media (min-height: 800px) and (min-width: 992px) {
+@media (min-height: 400px) {
   .element-animation {
     opacity: 0;
     -webkit-transform: scale(0.9);
@@ -1163,8 +1156,8 @@ ol {
     transition: 1s !important;
   }
   .animation_fromBottom_to_up.element-animation {
-    -webkit-transform: translate(0, 50%);
-            transform: translate(0, 50%);
+    -webkit-transform: translate(0, 20%);
+            transform: translate(0, 20%);
   }
   .animation_fromBottom_to_up.element-show {
     -webkit-transform: translate(0, 0) !important;
@@ -1173,8 +1166,8 @@ ol {
     transition: 1s !important;
   }
   .animation_fromUP_to_bottom.element-animation {
-    -webkit-transform: translate(0, 50%);
-            transform: translate(0, 50%);
+    -webkit-transform: translate(0, 20%);
+            transform: translate(0, 20%);
   }
   .animation_fromUP_to_bottom.element-show {
     -webkit-transform: translate(0, 0) !important;

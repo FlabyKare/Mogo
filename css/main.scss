@@ -131,7 +131,7 @@ ol {
 }
 //! Плавная прогрузка Элементов
 
-@media (min-height: 800px) and (min-width: 992px) {
+@media (min-height: 400px) {
    //?  element-animation
    .element-animation {
       opacity: 0;
@@ -167,7 +167,7 @@ ol {
    //* Из нижней части плавно появляется
    //? animation_fromBottom_to_up element-animation
    .animation_fromBottom_to_up.element-animation {
-      transform: translate(0, 50%);
+      transform: translate(0, 20%);
    }
    .animation_fromBottom_to_up.element-show {
       transform: translate(0, 0) !important;
@@ -177,7 +177,7 @@ ol {
    //* Из нижней части плавно появляется
    //? animation_fromUP_to_bottom element-animation
    .animation_fromUP_to_bottom.element-animation {
-      transform: translate(0, 50%);
+      transform: translate(0, 20%);
    }
    .animation_fromUP_to_bottom.element-show {
       transform: translate(0, 0) !important;
